@@ -1,0 +1,38 @@
+{
+  "name": "book_management_system",
+  "version": "1.0.0",
+  "description": "This is a simple book managment app that helps you manage your favorite books",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddyMeg/book_managment_system.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "React"
+  ],
+  "author": "Teddy Tassew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeddyMeg/book_managment_system/issues"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "homepage": "https://github.com/TeddyMeg/book_managment_system#readme"
+}
